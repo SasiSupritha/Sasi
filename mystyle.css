@@ -26,7 +26,7 @@ body, html {
   background-size: cover;
 }
 #Publications{
-  background-image:url("images/spotlight.jpg");
+  background-image:url("images/book.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -96,6 +96,15 @@ h3{
   margin-top: 2%;
   color:black;
   font-family: "Georgia", Serif;
+}
+.box3{
+  width:450px;
+  padding:40 px;
+  margin: auto;
+  margin-top: 4%;
+  color:black;
+  font-family: "Georgia", Serif;
+  text-align: center;
 }
 .box1{
   width:225px;
