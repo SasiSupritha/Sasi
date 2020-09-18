@@ -15,6 +15,21 @@ body, html {
   background-attachment: fixed;
   background-size: cover;
 }
+#Certifications{
+  background-image:url("images/rainbow.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#Contact{
+  background-image:url("images/trees-birds.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#Publications{
+  background-image:url("images/spotlight.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
 h3{
     text-align:center;
     font-size: 50px;
@@ -29,6 +44,26 @@ h3{
     padding: 0 20px;
     border-radius:50%;
     }
+
+.image{
+  width: 60%;
+  height: 200%;
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.image2{
+  width: 100%;
+  height: 200%;
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
 .tablink {
   background-color: white;
   color: black;
@@ -71,105 +106,58 @@ p.a{
   word-spacing: 10px;
 }
 
-#Home {background-color: white;}
-#Internship{background-color: white;}
-#Projects {background-color: rgb(11, 202, 250);}
-#Skills {background-color: white;}
-#Certifications{background-color: rgb(245, 158, 233);}
-#Publications{background-color: aqua;}
-#Contact{background-color:  #87ee4b;}
 
-.overlay1{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30%;
-  width: 20%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #fc0294;
-  margin-top: 210px;
-  margin-left:700px;
-  border-radius: 20%;
+#Internship{background-color: white;}
+#Skills {background-color: white;}
+
+
+.container1{
+  width:450px;
+  text-align:center;
+  padding:40 px;
+  margin: auto;
+  color:black;
+  font-family: "Georgia", Serif;
 }
-.overlay2{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 35%;
-  width: 20%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #2600ff;
-  margin-top: 195px;
-  margin-left:400px;
-  border-radius: 20%;
-}
-.overlay3{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 38%;
-  width: 20%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(255, 30, 0);
-  margin-top: 185px;
-  margin-left:1009px;
-  border-radius: 50%;
-}
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.column {
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-left:50px;
-}
-.row::after {
-  content: " ";
-  clear: both;
-  display: table;}
-  
-.column:hover .overlay1 {
-  opacity: 1;
-}
-.column:hover .overlay2{
-  opacity: 1;
-}
-.column:hover .overlay3{
-  opacity: 1;
-}
+
+
+
 .container {
   width: 60%;
   background-color: #ddd;
   margin-left:100px;
 }
-
 .skills {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
 }
-
 .python {width: 90%; background-color: #4CAF50;}
 .c {width: 80%; background-color: #048af7;}
 .research{width: 65%; background-color: #f44336;}
 .wd {width: 60%; background-color: #eb08f3;}
 .java {width: 50%; background-color: orange;}
+
+
+.box2{
+  width:800px;
+  text-align:center;
+  padding:40 px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+
+.col1 {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
