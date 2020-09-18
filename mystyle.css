@@ -1,0 +1,175 @@
+* {box-sizing: border-box}
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+#Home{
+  background-image:url("images/Bg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#Projects{
+  background-image:url("images/Yellow.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+h3{
+    text-align:center;
+    font-size: 50px;
+}
+.image1{
+    width: 50%;
+    height: 100%;
+    display:block;
+    margin:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    border-radius:50%;
+    }
+.tablink {
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 14.28%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #0c0c0c;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.box{
+  width:450px;
+  background: rgba(250, 240, 240, 0.4);
+  text-align:center;
+  padding:40 px;
+  margin: auto;
+  margin-top: 2%;
+  color:black;
+  font-family: "Georgia", Serif;
+}
+.box1{
+  width:225px;
+  height:50%;
+  margin-left:550px;
+}
+p.a{ 
+  word-spacing: 10px;
+}
+
+#Home {background-color: white;}
+#Internship{background-color: white;}
+#Projects {background-color: rgb(11, 202, 250);}
+#Skills {background-color: white;}
+#Certifications{background-color: rgb(245, 158, 233);}
+#Publications{background-color: aqua;}
+#Contact{background-color:  #87ee4b;}
+
+.overlay1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 20%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fc0294;
+  margin-top: 210px;
+  margin-left:700px;
+  border-radius: 20%;
+}
+.overlay2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35%;
+  width: 20%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2600ff;
+  margin-top: 195px;
+  margin-left:400px;
+  border-radius: 20%;
+}
+.overlay3{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 38%;
+  width: 20%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 30, 0);
+  margin-top: 185px;
+  margin-left:1009px;
+  border-radius: 50%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-left:50px;
+}
+.row::after {
+  content: " ";
+  clear: both;
+  display: table;}
+  
+.column:hover .overlay1 {
+  opacity: 1;
+}
+.column:hover .overlay2{
+  opacity: 1;
+}
+.column:hover .overlay3{
+  opacity: 1;
+}
+.container {
+  width: 60%;
+  background-color: #ddd;
+  margin-left:100px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.python {width: 90%; background-color: #4CAF50;}
+.c {width: 80%; background-color: #048af7;}
+.research{width: 65%; background-color: #f44336;}
+.wd {width: 60%; background-color: #eb08f3;}
+.java {width: 50%; background-color: orange;}
