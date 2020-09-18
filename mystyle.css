@@ -26,6 +26,9 @@ body, html {
   background-size: cover;
 }
 #Publications{
+  background-image:url("images/book.jpg");
+  background-attachment: fixed;
+  background-size: cover;
  background-color: #CFA1F7;
 }
 h3{
@@ -34,7 +37,6 @@ h3{
 }
 .image1{
     width: 50%;
-    height: 100%;
     display:block;
     margin:0;
     margin-left: auto;
