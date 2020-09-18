@@ -107,7 +107,8 @@ h3{
 .box1{
   width:225px;
   height:50%;
-  margin-left:550px;
+  margin: auto;
+  display: block;
 }
 p.a{ 
   word-spacing: 10px;
